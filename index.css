@@ -98,6 +98,18 @@ html {
   background-color: var(--color-bg);
 }
 
+.prod-home-img {
+  width: 285px;
+}
+
+.red-star {
+  font-size: 22px !important;
+}
+
+.manual-down {
+  justify-content: center;
+}
+
 .marquee {
   display: flex;
   overflow: hidden;

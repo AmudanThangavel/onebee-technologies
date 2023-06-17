@@ -32,6 +32,15 @@
   color: #424242;
 }
 
+.model-num {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #8b0303;
+}
+
 .a {
   text-decoration: none;
   color: black;
@@ -79,5 +88,14 @@
     font-size: 12px;
     line-height: 25px;
     color: #424242;
+  }
+
+  .model-num {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #8b0303;
   }
 }
