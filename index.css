@@ -102,6 +102,24 @@ html {
   width: 285px;
 }
 
+@media (max-width: 768px) {
+  .prod-home-card {
+    padding-left: 20%;
+  }
+}
+
+@media (max-width: 456px) {
+  .prod-home-card {
+    padding-left: 13%;
+  }
+}
+
+@media (max-width: 368px) {
+  .prod-home-card {
+    padding-left: 9%;
+  }
+}
+
 .red-star {
   font-size: 22px !important;
 }
