@@ -428,3 +428,33 @@ html {
 .social-icons a.instagram:hover {
   background-color: #f00077;
 }
+
+/* Our Team */
+#container {
+  /* max-width: 600px; */
+  max-height: 570px;
+  display: flex;
+  /* border: 1px solid #ccc; */
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  /* overflow-x: scroll !important; */
+}
+
+#container::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+}
+
+.team-img {
+  height: 400px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.arr-btn {
+  border-radius: 50%;
+  background-color: white;
+  color: #ff0000;
+  border-color: #ff0000;
+  /* padding: 4px; */
+  font-size: 30px;
+}
